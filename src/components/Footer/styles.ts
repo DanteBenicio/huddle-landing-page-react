@@ -165,6 +165,7 @@ export const HuddleList = styled.ul`
       text-decoration: none;
       /* height: 100%; */
       padding: 8%;
+      color: #fff;
 
       &:hover {
         text-decoration: underline;
