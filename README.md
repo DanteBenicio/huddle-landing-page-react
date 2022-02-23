@@ -2,9 +2,9 @@
 
 <h1 align="center">Huddle Landing Page</h1>
 
-<h1><img src="./github/banner-1.png"/></h1>
-<h1><img src="./github/banner-2.png"/></h1>
-<h1><img src="./github/banner-3.png"/></h1>
+<h1><img src="./.github/banner-1.png"/></h1>
+<h1><img src="./.github/banner-2.png"/></h1>
+<h1><img src="./.github/banner-3.png"/></h1>
 <h1 align="center"><img src="./github/mobile-video.gif"/></h1>
 
 <h2 align="center">Tabela de conteúdos</h2>
