@@ -13,6 +13,11 @@ export const Container = styled.section`
       padding: 2rem 1.5rem 15rem;
     ` : css`
       padding: 2rem 1.5rem;
+    `)}
+  }
+
+  @media screen and (min-height: 1180px) {
+    min-height: 50vh;
   }
 `;
 
