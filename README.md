@@ -10,8 +10,8 @@
 <h2 align="center">Tabela de conteúdos</h2>
 <p align="center">
   <a href="#sobre">Sobre</a> |
-  <a href="#pre-requisitos">Pre-requisitos</a> |
-  <a href="#instalacao">Instalação</a> |
+  <a href="#pré-requisitos">Pré-requisitos</a> |
+  <a href="#instalação">Instalação</a> |
   <a href="#tecnologias">Tecnologias</a>
 </p>
 
