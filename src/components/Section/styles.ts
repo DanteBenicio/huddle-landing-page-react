@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+import { ContainerProps, WrapperProps } from '../../types/section-styles';
 
 export const Container = styled('section')<ContainerProps>`
   display: flex;
