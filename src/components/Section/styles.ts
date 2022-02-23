@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.section`
+export const Container = styled('section')<ContainerProps>`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ export const Container = styled.section`
   }
 `;
 
-export const Wrapper = styled.main`
+export const Wrapper = styled('main')<WrapperProps>`
   display: flex;
   justify-content: center;
   align-items: center;
