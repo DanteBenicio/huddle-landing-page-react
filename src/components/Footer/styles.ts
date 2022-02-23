@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 export const Container = styled.footer`
   max-width: 100vw;
-  min-height: 80vh;
-  /* margin-top: 2rem; */
+  min-height: 60vh;
   padding: 8.5rem 2.5rem 2.5rem;
   display: flex;
   position: relative;
+  align-items: center;
   background-color: ${({ theme }) => theme.colors.veryDarkCyan};
 `;
 
@@ -163,7 +163,6 @@ export const HuddleList = styled.ul`
 
     a {
       text-decoration: none;
-      /* height: 100%; */
       padding: 8%;
       color: #fff;
 
