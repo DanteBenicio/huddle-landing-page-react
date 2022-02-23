@@ -1,6 +1,7 @@
 import {
   Container, Description, Image, ImageWrapper, TextContent, Title, Wrapper,
 } from './styles';
+import { SectionProps } from '../../types/section';
 
 export default function Section() {
   return (
