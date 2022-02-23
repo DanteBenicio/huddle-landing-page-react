@@ -7,8 +7,8 @@ export default function Section({
   rowReverse, title, description, imageSrc, altImageText, incrementSpacingBottom,
 }: SectionProps) {
   return (
-    <Container>
-      <Wrapper>
+    <Container incrementSpacingBottom={incrementSpacingBottom}>
+      <Wrapper rowReverse={rowReverse}>
         <TextContent>
           <Title>Grow Together</Title>
           <Description>
