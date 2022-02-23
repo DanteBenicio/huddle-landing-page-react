@@ -1,5 +1,7 @@
+import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import Section from './components/Section';
+import data from './data';
 
 function App() {
   return (
