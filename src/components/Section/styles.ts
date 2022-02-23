@@ -25,6 +25,7 @@ export const Wrapper = styled.main`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: ${({ rowReverse }) => (rowReverse ? 'row-reverse' : 'row')};
 
   width: 100%;
 
