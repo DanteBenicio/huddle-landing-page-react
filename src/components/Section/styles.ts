@@ -9,7 +9,10 @@ export const Container = styled.section`
   padding: 2rem 2.5rem;
 
   @media screen and (max-width: 768px) {
-    padding: 2rem 1.5rem;
+    ${({ incrementSpacingBottom }) => (incrementSpacingBottom ? css`
+      padding: 2rem 1.5rem 15rem;
+    ` : css`
+      padding: 2rem 1.5rem;
   }
 `;
 
