@@ -5,7 +5,10 @@ function App() {
   return (
     <>
       <HeroSection />
-      <Section />
+      <Section {...data.section} />
+      <Section rowReverse {...data.section2} />
+      <Section {...data.section3} />
+      <Footer />
     </>
   );
 }
