@@ -3,7 +3,9 @@ import {
 } from './styles';
 import { SectionProps } from '../../types/section';
 
-export default function Section() {
+export default function Section({
+  rowReverse, title, description, imageSrc, altImageText, incrementSpacingBottom,
+}: SectionProps) {
   return (
     <Container>
       <Wrapper>
